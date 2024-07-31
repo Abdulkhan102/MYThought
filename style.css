@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.box{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin: 150px;
+  width: 300px;
+  height: 300PX;
+  background-color: #ffebd4;
+  background-size: cover;
+  border: 5px solid #f0a8d0;
+  border-radius: 30PX;
+  
+}
+.move{
+  animation: move1 1s infinite;
+}
+
+@keyframes move1{
+  0% {
+    margin-left: 150px;
+  }
+  50% {
+    margin-top: 30px !important; /* ignored */
+  }
+  100% {
+    margin-right: 50px;
+  }
+}
+
+
+.box1{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #ffc6c6;
+  text-align: center;
+  bottom: 200px;
+  margin-left: 100px;
+  padding-top: 5px;
+  border-radius: 25px;
+  font-size: small;
+  border: 5px solid #f0a8d0;
+ 
+}
+
+.box2{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  background-color: #f7b5ca;
+  border: 5px solid #f0a8d0;
+  
+}
+
+.box3{
+  position: absolute;
+  bottom: 20px;
+  margin-left: 100px;
+  padding-top: 5px;
+  border-radius: 25px;
+  text-align: center;
+  /* font-size: small; */
+  width: 100px;
+  height: 50px;
+  background-color:#ffc6c6;
+  border: 5px solid #f0a8d0;
+  
+}
+
+
+
+.boxB{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
+  margin-left: 150px;
+  padding-right: 50px;
+  width: 300px;
+  height: 300PX;
+  background-size: cover;
+  background-color: #f5eded;
+  border: 5px solid #6482ad;
+  border-radius: 30PX;
+
+}
+
+.move2{
+  animation: move3 10s infinite;
+}
+
+@keyframes move3{
+  from {
+    margin-bottom: 50px;
+  }
+  50% {
+    margin-top: 50px !important; /* ignored */
+  }
+  to {
+    margin-top: 50px;
+  }
+}
+
+
+.box4{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  bottom: 200px;
+  margin-left: 100px;
+  padding-top: 5px;
+  border-radius: 25px;
+  font-size: small;
+  background-color: #e2dad6;
+  border: 5px solid #6482ad;
+ 
+}
+
+.box5{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  background-color: #7fa1c3;
+  border: 5px solid #6482ad;
+  
+}
+
+.box6{
+  position: absolute;
+  bottom: 20px;
+  margin-left: 100px;
+  padding-top: 5px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: small;
+  width: 100px;
+  height: 50px;
+  background-color: #e2dad6;
+  border: 5px solid #6482ad;
+  
+}
